@@ -1,5 +1,5 @@
 - name: Install Jenkins
-  hosts: all
+  hosts: linux123
   become: true 
   # gather_facts: false 
   roles:
