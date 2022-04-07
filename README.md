@@ -2,9 +2,8 @@
 =========
 
 ## Installs Jenkins for Ubuntu linux servers.
-
 ## Requirements
-------------
+-------------------------
     OS: Ubuntu
 
 ## Role Variables
