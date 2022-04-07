@@ -5,7 +5,7 @@
 
 ## Requirements
 ------------
-OS: Ubuntu
+    OS: Ubuntu
 
 ## Role Variables
 --------------
@@ -16,7 +16,7 @@ OS: Ubuntu
 
 ## Dependencies
 ------------
-None.
+    None.
 
 ## Example Playbook
 ----------------
@@ -30,10 +30,10 @@ None.
 
 ## License
 -------
-LÊ NGỌC HIẾU
+    LÊ NGỌC HIẾU
 
 ## Author Information
 ------------------
 
-This role was created in 2022 by Lê Ngọc Hiếu from Việt Nam, Devops Engineer
+    This role was created in 2022 by Lê Ngọc Hiếu from Việt Nam, Devops Engineer
 
