@@ -9,11 +9,10 @@ OS: Ubuntu
 
 ## Role Variables
 --------------
-
---- 
-java: "openjdk-11-jdk"
-jenkins: 
-  repo_URL: "https://pkg.jenkins.io/debian-stable/jenkins.io.key"
+    --- 
+    java: "openjdk-11-jdk"
+    jenkins: 
+      repo_URL: "https://pkg.jenkins.io/debian-stable/jenkins.io.key"
 
 ## Dependencies
 ------------
@@ -21,15 +20,14 @@ None.
 
 ## Example Playbook
 ----------------
+    ---
+    - name: Install Jenkins
+      hosts: linux123
+      become: true 
+      # gather_facts: false 
+      roles:
+        - role-jenkins
 
----
-- name: Install Jenkins
-  hosts: linux123
-  become: true 
-  # gather_facts: false 
-  roles:
-    - role-jenkins
-    
 ## License
 -------
 LÊ NGỌC HIẾU
